@@ -1,3 +1,18 @@
+.minnie {
+    position: fixed;
+    width: 100px; /* You can make her smaller or bigger */
+    top: 10px;
+    z-index: 1000;
+}
+
+.minnie-left {
+    left: 10px;
+}
+
+.minnie-right {
+    right: 10px;
+    transform: scaleX(-1); /* flips the same image to face the other side */
+}
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff7f8;
@@ -53,19 +68,5 @@ footer {
     background-color: #ffe4e1;
     font-size: 0.9rem;
 }
-.minnie {
-    position: fixed;
-    width: 100px; /* adjust size if needed */
-    top: 10px;
-    z-index: 1000;
-}
 
-.minnie-left {
-    left: 10px;
-}
-
-.minnie-right {
-    right: 10px;
-    transform: scaleX(-1); /* flips image horizontally for symmetry */
-}
 
